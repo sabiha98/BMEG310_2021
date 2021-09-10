@@ -7,7 +7,6 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 ## Tutorial 1 (Week of Sep 13, 2021): Introduction to git and R
 
 1- How to install git : [Link](https://htmlpreview.github.io/?https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%201/1-%20Git/Install%20Git.html)
-<br /> Note, git is already installed in Virtualbox but we inlcude this information for the sake of completeness.
 
 2- How to work with git: [Link](https://htmlpreview.github.io/?https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%201/1-%20Git/First%20steps%20with%20git%20clone%2C%20add%2C%20commit%2C%20push%20Intro%20version%20control%20git.html)
 
