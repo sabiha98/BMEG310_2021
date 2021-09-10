@@ -21,7 +21,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 
 * At the end of the "Introduction to data wrangling and functions in R" document, you can find the exercise that you can work on to put what you have learned into practice. 
 
-5- Solution for Tutorial 1: TBD
+4- Solution for Tutorial 1: TBD
 
 ## Tutorial 2 (Week of Sep 20, 2021): Introduction to R Markdown and data visualization with R
 
