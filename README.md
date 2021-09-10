@@ -2,6 +2,8 @@
 
 This repository contains course material (tutorials, etc.) related to BMEG310 course at UBC.
 
+# Tutorials 
+
 ## Tutorial 1 (Week of Sep 14, 2020): Introduction to git and R
 
 1- Install Virtualbox as per the instructions outlined in the following document: [link](https://docs.google.com/document/d/1BiSQHjmPYxBnD8DljzpQq6W7POFtNlEs2rkRQ5vI9n8/edit?usp=sharing)
@@ -54,58 +56,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 
 2- Solution: TBD
 
-## Tutorial 5 (Week of Oct 19, 2020): Introduction to Survival Analysis
-
-1- Survival analysis on TCGA data:
-<br /> &nbsp;&nbsp;&nbsp;
-1.1. Tutorial can be found here: [Link](https://htmlpreview.github.io/?https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%205/Survival_Analysis_V2.html)
-<br /> &nbsp;&nbsp;&nbsp;
-1.2. Data files can be found here: [Link](https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%205/tcga_data.rar)
-<br /> &nbsp;&nbsp;&nbsp;
-
-2- Solution: TBD
-
-## Tutorial 6 (Week of Oct 26, 2020): Introduction to UCSC genome browser
-Link to the video Tutorials: [link](https://www.youtube.com/playlist?list=PLrMptZQwFBe7I7Df_OGZoiak-d7sXfuGD)
-
-This tutorial covers 4 topics as follows:
-<br />
-1- Introduction to UCSC
-<br />
-2- Introduction to TRACKs
-<br />
-3- How to get data using Table Browser
-<br />
-4- How to find All the SNPs for a gene
-<br />
-
-5- Solution: TBD
-<br /> &nbsp;&nbsp;&nbsp;
-Also, in canvas under page "Tutorial 6 - Solution", you will be able to watch the detail answer to questions
-
-
-## Tutorial 7 (Week of Nov 2, 2020): Introduction to Differential Expression and Pathway Analysis
-
-1- Introduction to DE and Pathway analysis [link](https://htmlpreview.github.io/?https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%207/DE.html)
-<br />
-2- Data [link](https://github.com/bmeg310ubc/bmeg310/tree/master/Tutorial%207)
-<br />
-3- Change Log: Any further changes in this tutorial will be announced here [link](https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%207/Change_Log)
-<br />
-
-## Assignment Guidelines
-Please see this link as update guidelines for submitting assignments/tutorials [link](https://htmlpreview.github.io/?https://github.com/bmeg310ubc/bmeg310/blob/master/Assignment%20Guidelines.html)
-
-## Assignment 1 
-TBD
-
-## Assignment 2
-TBD
-
-## Assignment 3
-TBD
-
-## Assignment 3
+# Assignments
 TBD
 
 ## Project
