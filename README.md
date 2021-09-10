@@ -4,7 +4,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 
 # Tutorials 
 
-## Tutorial 1 (Week of Sep 14, 2020): Introduction to git and R
+## Tutorial 1 (Week of Sep 13, 2021): Introduction to git and R
 
 1- Install Virtualbox as per the instructions outlined in the following document: [link](https://docs.google.com/document/d/1BiSQHjmPYxBnD8DljzpQq6W7POFtNlEs2rkRQ5vI9n8/edit?usp=sharing)
 <br /> Note, if you run into difficulty with running Virtualbox, please skip this step for now.
@@ -26,7 +26,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 
 5- Solution for Tutorial 1: TBD
 
-## Tutorial 2 (Week of Sep 21, 2020): Introduction to R Markdown and data visualization with R
+## Tutorial 2 (Week of Sep 20, 2021): Introduction to R Markdown and data visualization with R
 
 1- Introduction to R Markdown:
 <br /> &nbsp;&nbsp;&nbsp;
@@ -44,7 +44,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 <br /> &nbsp;&nbsp;&nbsp;
 2.3. Cheatsheet for R Visualization can be found here: [Link](https://github.com/bmeg310ubc/bmeg310/blob/master/Tutorial%202/R%20Visualization/tutorial/ggplot2-cheatsheet.pdf)
 
-## Tutorial 3 & 4 (Weeks of Sep 28 & Oct 5, 2020): Introduction to Machine Learning with R
+## Tutorial 3 & 4 (Weeks of Sep 27 & Oct 4, 2021): Introduction to Machine Learning with R
 
 1- Getting Started with Regression, Clustering, and Classification in R:
 <br /> &nbsp;&nbsp;&nbsp;
