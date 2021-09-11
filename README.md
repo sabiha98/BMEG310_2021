@@ -55,5 +55,5 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 # Assignments
 TBD
 
-## Project
+# Project
 TBD
