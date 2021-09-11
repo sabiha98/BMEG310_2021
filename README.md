@@ -5,6 +5,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 # Tutorials 
 
 ## Tutorial 1 (Week of Sep 13, 2021): Introduction to git and R
+### Responsible TA: Ali Chamkalani
 
 1- How to install git : [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Tutorial%201/1-%20Git/Install%20Git.html)
 
