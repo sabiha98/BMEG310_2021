@@ -5,7 +5,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 # Tutorials 
 
 ## Tutorial 1 (Week of Sep 13, 2021): Introduction to git and R
-### Responsible TA: Ali Chamkalani
+#### Responsible TA: Ali Chamkalani
 
 1- How to install git : [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Tutorial%201/1-%20Git/Install%20Git.html)
 
@@ -24,6 +24,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 4- Solution for Tutorial 1: TBD
 
 ## Tutorial 2 (Week of Sep 20, 2021): Introduction to R Markdown and data visualization with R
+#### Responsible TA: Ali Chamkalani
 
 1- Introduction to R Markdown:
 <br /> &nbsp;&nbsp;&nbsp;
@@ -42,6 +43,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 2.3. Cheatsheet for R Visualization can be found here: [Link](https://github.com/UBC-SBME/BMEG310_2021/blob/main/Tutorial%202/R%20Visualization/tutorial/ggplot2-cheatsheet.pdf)
 
 ## Tutorial 3 & 4 (Weeks of Sep 27 & Oct 4, 2021): Introduction to Machine Learning with R
+#### Responsible TA: Ramin Nakhli
 
 1- Getting Started with Regression, Clustering, and Classification in R:
 <br /> &nbsp;&nbsp;&nbsp;
