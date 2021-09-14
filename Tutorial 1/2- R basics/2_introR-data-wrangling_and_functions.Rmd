@@ -481,8 +481,7 @@ sum_squares(y = 5, x = 3)
 
 ---
 
-## Exercise to deliver (NOTE: No need to write the questions in your report)
-#### Please submit the R codes and results in a .txt file
+## Exercise (NOTE: This is an exersize to put what you have learned into action.)
 
 * Hint: The `apply()` family pertains to the R base package and is populated with functions to manipulate slices of data from matrices, arrays, lists and dataframes in a repetitive way. These functions allow crossing the data in a number of ways and ***avoid explicit use of loop constructs***. They act on an input list, matrix or array and apply a named function with one or several optional arguments.
 
