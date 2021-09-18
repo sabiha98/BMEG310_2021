@@ -62,6 +62,7 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 Question are vey easy and can be done in one or a couple of lines. 
 * You need to submit it as R script [or optionally R markdown]
 * [Important] Since there is no unique way to do the homework, it is also required to provide your output in the same file. No output, lose 50% of the score!
+
 1- Link to the data [Link](https://github.com/UBC-SBME/BMEG310_2021/tree/main/Assignment%201)
 
 2- Assignment 1 page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%201/HW1_Q%5B57214%5D.html)
