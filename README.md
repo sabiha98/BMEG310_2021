@@ -61,7 +61,8 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 #### Responsible TA: Ali Chamkalani
 Question are vey easy and can be done in one or a couple of lines. 
 * You need to submit it as R script [or optionally R markdown]
-* [Important] Since there is no unique way to do the homework, it is also required to provide your output in the same file. No output, lose 50% of the score! 
+* [Important] Since there is no unique way to do the homework, it is also required to provide your output in the same file. No output, lose 50% of the score! You would also need to include a statement on the contribution of each team member in a README.md file. 
+* Details on how to submit assignments/project can be found on Canvas under Modules/Howto's Section.
 
 1- Link to the data [Link](https://github.com/UBC-SBME/BMEG310_2021/tree/main/Assignment%201)
 
