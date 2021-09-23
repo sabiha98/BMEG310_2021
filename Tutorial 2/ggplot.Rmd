@@ -1,4 +1,4 @@
-```{r, eval=FALSE, echo=FALSE}
+```{r, eval=FALSE}
 install.packages("ggplot2")
 install.packages("RColorBrewer")
 ```
