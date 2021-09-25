@@ -686,8 +686,8 @@ Let’s also cross-check these clustering results using the table() function:
 You should get the following:
 
  		seeds_label
-
-   		1 	2 	3 
+ 	
+ 		1 	2 	3 
 
 1 		55 	2 	8 
 
@@ -757,6 +757,8 @@ The basic terminologies in R classification are:
 
 Let’s go through an example of a binary logistic regression with the ‘Smarket’ dataset within RStudio:
 
+`install.packages("ISLR")`
+
 `require(ISLR)`
 
 `head(Smarket)`
@@ -793,6 +795,8 @@ You can look at the distribution of the data using box and whisker plots:
 
 `}`![img](https://lh5.googleusercontent.com/zBvUFl_Xav5ebQHwXynbnv_4hN7ep6ZceahhQerkbU429GXXyyzE1b_EGEQQVvuZ5mAG8An3Dv8j25d2T6DgfJ3nGWHnQ_5L17ekfN2h_-HnNvtrD0XZ43c-8vNjB78GTILRA8Hb)To see if each pair of numeric variables are correlated and change together, execute:
 
+`install.packages("corrplot")`
+
 `library(corrplot)`
 
 `correlations <- cor(Smarket[,1:8])`
@@ -804,6 +808,8 @@ You can look at the distribution of the data using box and whisker plots:
 ![img](https://lh3.googleusercontent.com/M6pxBtV0PLi8SUQN-X0vsAWCLZmoQli8SoIIRpzg7TeUduzp1VJ45Uf4vYNg24ZtbQppgmTqFomFdzbHUsZincN6riZWsjFoPkZNWba2wlc1jIAqH-EPgdoVemvOBhGfkwF3skOo)
 
 Here, blue shows positive correlation and red shows negative. Larger dot means a larger correlation. There seems to be a light positive correlation between volume and year but none of the other variables are correlated with one another. Now plot:
+
+`install.packages("caret")`
 
 `library(caret)`
 
@@ -840,8 +846,8 @@ So, let’s start building our logistic regression model. We will use the glm() 
 **Deviance Residuals:**
 
   	**Min   1Q Median   3Q   Max**
-
- 	**-1.446 -1.203  1.065  1.145  1.326** 
+  	
+  	**-1.446 -1.203  1.065  1.145  1.326** 
 
 **Coefficients:**
 
@@ -1005,11 +1011,7 @@ https://www.geeksforgeeks.org/classifying-data-using-support-vector-machinessvms
 
 
 
-#### **Exercises**:
-
-
-
-**Please note:** *Your submission should be according to the tutorial/assignment submission guidelines.* 
+#### **Exercises** (optional):
 
 
 
