@@ -72,5 +72,19 @@ Question are vey easy and can be done in one or a couple of lines.
 
 2- Assignment 1 page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%201/HW1_Q%5B57214%5D.html)
 
+## Assignment 2 (R basics: 5% of the total grade)
+
+#### Responsible TA: Ramin Nakhli
+
+Some notes on assignment 2: 
+
+* You can submit it as R script or R markdown.
+* [Important] Since there is no unique way to do the homework, it is also required to provide your output in the same file. No output, lose 50% of the score! You would also need to include a statement on the contribution of each team member in a README.md file. 
+* Details on how to submit assignments/project can be found on Canvas under Modules/Howto's Section.
+
+1- Link to the data [Link](https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%202/ovarian.data)
+
+2- Assignment 2 page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%202/Assignment2.html)
+
 # Project
 TBD
