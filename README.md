@@ -72,8 +72,7 @@ Question are vey easy and can be done in one or a couple of lines.
 
 2- Assignment 1 page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%201/HW1_Q%5B57214%5D.html)
 
-## Assignment 2
-
+## Assignment 2 (ML: 12% of the total grade)
 #### Responsible TA: Ramin Nakhli
 
 Some notes on assignment 2: 
