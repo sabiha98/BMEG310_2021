@@ -59,6 +59,16 @@ This repository contains course material (tutorials, etc.) related to BMEG310 co
 
 2- Solution: TBD
 
+## Tutorial 5 (Week of Oct 18, 2021): Introduction to Survival Analysis
+#### Responsible TA: Ali Chamkalani
+
+1. Tutorial can be found here: [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Tutorial%205/Survival_Analysis_V2.html)
+<br /> &nbsp;&nbsp;&nbsp;
+2. Data files can be found here: [Link](https://github.com/UBC-SBME/BMEG310_2021/blob/main/Tutorial%205/tcga_data.rar)
+<br /> &nbsp;&nbsp;&nbsp;
+3. Solution to deliverable: [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Tutorial%205/Solution.html)
+
+
 # Assignments
 
 ## Assignment 1 (R basics: 5% of the total grade)
