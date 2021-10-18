@@ -106,7 +106,7 @@ Some notes on assignment 2:
 
 Some notes on assignment 3: 
 
-* You need to submit R markdown.
+* You need to submit **ONLY** R markdown.
 * [Important] Since there is no unique way to do the homework, it is also required to provide your output in the same file. No output, lose 50% of the score! You would also need to include a statement on the contribution of each team member in a README.md file. 
 * [Important] Please note, a significant portions of the final grade is allocated to team contributions measured through a peer survey. Through this survey, the students will rate their teammates and their contributions to each assignment. More details will be released soon. 
 * Details on how to submit assignments/project can be found on Canvas under Modules/Howto's Section.
