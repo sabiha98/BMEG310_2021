@@ -101,7 +101,7 @@ Some notes on assignment 2:
 
 
 
-## Assignment 3 (Variant Calling)
+## Assignment 3 (Variant Calling: 10% of the total grade)
 #### Responsible TA: Gabriel Dall Alba
 
 Some notes on assignment 3: 
