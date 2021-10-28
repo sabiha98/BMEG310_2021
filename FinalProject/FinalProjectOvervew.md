@@ -39,6 +39,19 @@ Students have been organised into teams of 3 (rarely, 2 or 4) to complete the pr
 
 In this project you will perform analysis on a TCGA Cancer dataset similarly to https://pubmed.ncbi.nlm.nih.gov/28988769/. In other words, we would like teams to use methods they have learned in the lectures, tutorials and assignments, such as clustering, regression, classification, differential expression, survival analysis, and visualization methods (among other approaches) to show that some trend of the Cancer type in question may be explained by characteristics of certain genes, and the potential mechanisms implicated. While there will be expected deliverables for the analysis, groups will be free to choose from different approaches and algorithms to perform their analysis and may investigate any trends they find in the data. Groups will also be expected to interpret the results of their data and propose biological explanations for the trends they see.
 
+Dos: 
+ *  Do: look at other papers for examples of what kinds of things you could try (e.g. below)
+ *  Don't: try to recapitulate the analysis from a published paper. This project is about data exploration, not about recreating the "correct" answer.
+
+### Examples:
+
+Here are a couple examples of papers that explore similar datasets. 
+ * https://www.cell.com/cell/fulltext/S0092-8674(17)31056-5
+ * https://www.nature.com/articles/ng.3849
+
+
+
+
 ### Data:
 
 You will be using datasets from The Cancer Genome Atlas (TCGA) containing variant calls, expression levels, and comprehensive individual data for many patients who underwent treatment for the same cancer type. Each team will be randomly assigned a dataset for analysis. 
