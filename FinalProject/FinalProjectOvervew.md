@@ -8,9 +8,7 @@ The BMEG 310 Course Project is worth 45% of the total grade. The purpose of the 
 
 **October 14:** Project Teams Announced. Available at [link](https://htmlpreview.github.io/?https://github.com/bmeg310ubc/bmeg310/blob/master/Groups.html)
 
-**TBD:** Group Check In, Project Proposal Due for self-identified projects (not marked, but required)
-
-**November 2:** Proposal due (only applicable if your group is analyzing different datasets than those assigned; not graded)
+**November 2:** Group Check In, Project Proposal Due for self-identified projects (not graded, but required)
 
 **November 19:** Progress Report Due (5% of grade)
 
@@ -117,17 +115,17 @@ The Final Project Report is comprised of three sections, the codebase (GitHub Re
     * Marks will be awarded for completeness of the code base (50%), and organization and clarity of code (50%)
 
 2. **Final Report** 
-    * This report should contain the following sections:
-          * **Abstract** Give an overview summarizing the contents of your report with focus on purpose, results, and relevancy of your work.
-          * **Introduction** Explain the background of your investigation, including relevant information regarding the cancer in question. Outline the goal of the project including the research question, and explain the importance of your investigation in relation to possible biological and clinical applications.
-          * **Methods** Give a detailed explanation of your workflow including the algorithms you have used and the structure of the data with which you are working. Provide reasoning for every choice you have made in the design of your workflow, placing it in the context of the data. Explain how the workflow is suited to the research question you have defined.
-          * **Results** Citing relevant figures and tables, summarize the results of your investigation. Use methods of presenting data such as those which have been covered in assignments and tutorials to convey your results concisely and frame any important trends that have been discovered, or use them to highlight a lack of important trends if this was the case.
-          * **Discussion** Highlight important trends in your data and explain them both in the context of the data and in the context of biological/environmental factors of the disease where possible. Discuss any challenges that were faced with the dataset and workflow, and explain how they were addressed. Present a conclusion based on the results of the investigation and explain how this addresses the research question.
-    * The report should not be longer than 8 pages in 11 point font Times New Roman (single space, 0.75" margin on all sides), including tables, figures, and references. To further support your findings, you can inlcude up to TWO pages of supplemental figures and tables (beyond the 8-page limit).  
-    * Cite references where relevant. Use IEEE style and include a bibliography at the end of the report. Often a reference or two can help explain the disease or give credence to a trend you see in the data.
-    * Marks will be awarded for formatting and organization of the report (10%), clarity of introduction (20%), thoroughness of methods (10%), quality and relevance of tables and figures (20%), clarity of written summary of results (10%), and clarity and completeness of discussion of results (30%). 
-    * **HOW TO SUBMIT PROJECT:** There will be a Canvas Assignmnet for submitting the project where you will provide links/upload the required files. 
-    - It is important to note that the project repo should be **private**.
+ * This report should contain the following sections:
+    * **Abstract** Give an overview summarizing the contents of your report with focus on purpose, results, and relevancy of your work.
+    * **Introduction** Explain the background of your investigation, including relevant information regarding the cancer in question. Outline the goal of the project including the research question, and explain the importance of your investigation in relation to possible biological and clinical applications.
+    * **Methods** Give a detailed explanation of your workflow including the algorithms you have used and the structure of the data with which you are working. Provide reasoning for every choice you have made in the design of your workflow, placing it in the context of the data. Explain how the workflow is suited to the research question you have defined.
+    * **Results** Citing relevant figures and tables, summarize the results of your investigation. Use methods of presenting data such as those which have been covered in assignments and tutorials to convey your results concisely and frame any important trends that have been discovered, or use them to highlight a lack of important trends if this was the case.
+    * **Discussion** Highlight important trends in your data and explain them both in the context of the data and in the context of biological/environmental factors of the disease where possible. Discuss any challenges that were faced with the dataset and workflow, and explain how they were addressed. Present a conclusion based on the results of the investigation and explain how this addresses the research question.
+ * The report should not be longer than 8 pages in 11 point font Times New Roman (single space, 0.75" margin on all sides), including tables, figures, and references. To further support your findings, you can inlcude up to TWO pages of supplemental figures and tables (beyond the 8-page limit).  
+ * Cite references where relevant. Use IEEE style and include a bibliography at the end of the report. Often a reference or two can help explain the disease or give credence to a trend you see in the data.
+ * Marks will be awarded for formatting and organization of the report (10%), clarity of introduction (20%), thoroughness of methods (10%), quality and relevance of tables and figures (20%), clarity of written summary of results (10%), and clarity and completeness of discussion of results (30%). 
+ * **HOW TO SUBMIT PROJECT:** There will be a Canvas Assignmnet for submitting the project where you will provide links/upload the required files. 
+ * It is important to note that the project repo should be **private**.
   
 3. **Peer Feedback Survey**
     * At the end of project submission, students will be required to submit a confidential peer feedback survey, similarly to the assignments. 
