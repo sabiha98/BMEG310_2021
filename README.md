@@ -106,7 +106,7 @@ Some notes on assignment 2:
 
 2- Assignment 2 page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%202/Assignment2.html)
 
-3- Assignment 2 solution page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%202/Assignment2.html)
+3- Assignment 2 solution page [Link](https://htmlpreview.github.io/?https://github.com/UBC-SBME/BMEG310_2021/blob/main/Assignment%202/Assignment2-Solution.html)
 
 
 
