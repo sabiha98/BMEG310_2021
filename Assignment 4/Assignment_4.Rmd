@@ -81,7 +81,7 @@ rm('rnaSeqDataMelted') # remove
 ### Question 1
 *It is always important to perform Quality Control on your data. *
 
-#### Question 1a
+#### Question 1a (2 pts)
 *For some reason, the authors labeled the different cell types "1" and "2" in this table. We need to figure out which is which. You know that EBV induces the NF-kappaB pathway, and that the TNF gene should be highly induced. Make a graph that shows the relative gene expression levels of TNF (y axis) for both cell types (x axis), for each donor (colour or "fill").*
 
 
@@ -92,7 +92,7 @@ rm('rnaSeqDataMelted') # remove
 
 *Explain what you see. Are the celltype labels correct?*
 
-#### Question 1b
+#### Question 1b ( 2pts)
 *With RNA-seq data, it is important both that samples have sufficient coverage, and that the samples have similar coverage. Either case can lead to underpowered analysis, or misleading results. Calcualte the read coverage for each sample. Make a plot with read coverage on the y-axis (total number of reads) and the samples on the x-axis.*
 
 ```{r}
@@ -116,7 +116,7 @@ rm('rnaSeqDataMelted') # remove
 
 *In cases where samples have vastly different coverage, you can potentially down-sample the higher-coverage samples. Sometimes, throwing out the data in this way can also introduce new problems, so we're going to stick with the data we have. What is more important in our analysis is that the LCLs and B-cells have similar coverage.*
 
-#### Question 1c
+#### Question 1c ( 4.5 pts)
 *One easy way to compare the samples, is to calculate the pairwise correlation between them. In general, we do this in log gene expression space.*
 
 *First we need to create a RPKM matrix. You can use the `reshape` package to change the shape of a `data.frame`. Below is an example for how to reshape our RPKM `data.frame` into a matrix of genes by samples. *
@@ -145,7 +145,7 @@ head(rpkmMatrix)
 *The donors are labeled [A-E]. What would we expect to see if there were donor-specific effects here (e.g. some donor-specific signal affecting both cell types)? Do we see them?*
 
 
-#### Question 1d
+#### Question 1d (4 pts)
 
 *Plot the kernel density estimate for RPKM (x axis). Describe the distribution. *
 
@@ -161,7 +161,7 @@ head(rpkmMatrix)
 
 *Why do we use RPKM+1?*
 
-#### Question 1e
+#### Question 1e ( 2pts)
 *It is common to exclude some genes from analysis. For instance, if the gene is not expressed, there is no way it can be differentially expressed. Even in cases where there are a few reads, it is common to exclude these genes too since there we cannot be confident in any differential expression based on very few reads. Calculate the mean number of reads per gene using the count data. We're going to use a cutoff of a mean of at least 5 reads per gene, on average, to be included in the subsequent analysis. Plot the mean reads per gene as a Cumulative Distribution (see https://en.wikipedia.org/wiki/Cumulative_distribution_function), and indicate with a vertical line where the cutoff lies.*
 
 
@@ -184,7 +184,7 @@ head(rpkmMatrix)
 
 ```
 
-#### Question 1f (bonus)
+#### Question 1f ( 2 bonus pts)
 
 *`rnaSeqDataMeltedCounts` contains a commmon error introduced by pasting the data having passed through excel. Can you identify this error and show some examples?*
 
@@ -198,14 +198,14 @@ head(rpkmMatrix)
 
 *Today, we're going to use edgeR. The user guide is here:* https://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf
 
-#### Question 2a
+#### Question 2a (2pts)
 *For calculating differential expression, we need a count matrix. There is a lot more information in counts than in normalized counts. For example, you can believe 1/1E6 reads a lot less than 100/1E8 reads, but they both have the same RPKM values. Accordingly, Please create a matrix of counts (genes in the rows and samples in the columns) and filter it for genes with an average number of counts across samples >5 (as in Q1f). *
 
 ```{r}
 
 ```
 
-#### Question 2b
+#### Question 2b (4pts)
 
 *EdgeR is exceptionally versatile, with many different options for analysis. Today, you're going to use the GLM-quasi-likelihood approach to calculate differential expression. Below is some incomplete code that you can use to start with. Please complete the code so that edgeR uses your countMatrix to calculate differential expression comparing B cells to LCLs. Please also comment the code so that it is clear what each step does (in your own words).*
 
@@ -225,7 +225,7 @@ head(allDEStats)
 ```
 
 
-#### Question 2c
+#### Question 2c (2pts)
 *Now, let's confirm that we did the comparison in the correct direction. We want to ensure that we did LCLs/B-cells, and not the other way around. Make a volcano plot using ggplot2 for this analysis. A volcano plot is a scatter plot with log(fold-change) on the x-axis, and -log(P-value) on the y-axis. Label TNF in this plot. Alter the above code if logFC is not expressed as log(LCLs/B-cells). *
 
 ```{r}
@@ -234,7 +234,7 @@ head(allDEStats)
 ```
 
 
-#### Question 2d
+#### Question 2d (2pts)
 *In the case of this experiment, each donor had corresponding B cell and LCL samples - these are indicated by the 'donor' variable, which takes the values A-E. For instance, the LCLs and B-cells labeled with Donor 'E' are both from the same individual. What happens if there are person-specific differences in expression? For instance, what if person E had autoimmune disease? This could perturb both their B-cells and their resulting LCLs. These are called 'paired samples' since there is a pair of samples for each donor (B cells and LCLs). Repeat the analysis above, this time incorporating the knowledge of paired samples in the analysis, using the donor as a blocking variable.*
 
 ```{r}
@@ -246,7 +246,7 @@ head(allDEStats)
 ### Question 3
 *When performing any bioinformatic analysis, it is critically important to verify your answers. Here, we're going to compare the results from our paired analysis vs. the unpaired analysis to ensure that our analysis is correct (go back and redo the previous parts if you find that your analysis appears to be incorrect).*
 
-#### Question 3a
+#### Question 3a ( 1pts)
 *Compare the results from the paired analysis vs. the original analysis (where donor was not considered).*
 *How many genes have a logFC that differs by 1 or more?*
 
@@ -255,7 +255,7 @@ head(allDEStats)
 
 ```
 
-#### Question 3b
+#### Question 3b ( 3pts)
 *Plot the logFC values for paired (x-axis) vs unpaired (y-axis) analyses. What is the Pearson r between the two?*
 
 ```{r}
@@ -263,7 +263,7 @@ head(allDEStats)
 
 ```
 
-#### Question 3c
+#### Question 3c 
 *Why are there some genes whose logFC estimates differ so much between the paired and unpaired analyses? Let's inspect the genes with a logFC difference between paired and unpaired of at least 1. A heatmap can be used to display a matrix of values. In this case, we want the values to represent log(RPKM+1) values (use `rnaSeqDataMeltedRPKM`), with genes (only those whose logFCs differ between the analysis using donor as a blocking variable vs. without by more than 1) on the y axis and samples on the x axis.* 
 
 ```{r}
@@ -281,7 +281,7 @@ head(allDEStats)
 
 #### *From now on, we will be using only the paired (donor as blocking variable) analysis*
 
-#### Question 4a
+#### Question 4a ( 3.5 pts)
 
 *edgeR uses TMM normalization. TMM normalization is usually a solid approach, but it assumes that most of the genes do not differ in expression between your samples. One approach you could use to check this is by looking at the P-value distribution from our DE analysis. For a well-behaved statistical test, P-values are uniformly distributed between 0 and 1. Plot the Cumulative Distribution of P-values for the paired analysis. On the same plot, include a CDF for 100,000 uniformly sampled random values between 0 and 1.*
 
@@ -295,7 +295,7 @@ head(allDEStats)
 
 *Do you think we should use TMM normalization for these samples? Why or why not?*
 
-#### Question 4b
+#### Question 4b (3.5 pts)
 *Another way to ensure that P-values are well-behaved is to make a Q-Q plot. A Q-Q plot, in this case, will show the expected P-values (under the null hypothesis) on the x axis, and actual p-values on the y-axis. Recall that by the definition of a P-value, if you generate `n` p-values under the null hypothesis, you expect to see 1 p-value of 1/`n` or lower, two of 2/`n` or lower, etc. Here, `n` is the number of DE tests you performed. Make a Q-Q plot of p-values for your DE analysis. Use -log(P) for both axes (this puts the most significant in the upper right, and least significant in the lower left). Also include the line y=x in red for comparison. For a well-behaved statistical test, most of the points should lie along the y=x line. *
 
 
@@ -307,7 +307,7 @@ head(allDEStats)
 
 *What does this mean about how we did our analysis? What would you do differently if we were to redo the analysis?*
 
-#### Question 4c
+#### Question 4c (3 pts)
 *FDRs are automatically calculated by edgeR. plot the -log10(FDR) (y axis) versus the -log10(P-value) (x axis) for the paired DE analysis. Include the line y=x in red again for reference*
 
 ```{r}
@@ -317,7 +317,7 @@ head(allDEStats)
 *Are the points above or below the line? Why?*
 
 
-#### Question 4d
+#### Question 4d (3 pts)
 *If we took our set of significant DE genes to be those that meet an FDR of 10%, how many genes would be considered significantly DE?*
 
 ```{r}
@@ -336,7 +336,7 @@ head(allDEStats)
 ### Question 5
 *Now we're going to spend some time actually looking at the results of our analysis, trying to determine what is going on when B-cells are converted to LCLs.*
 
-#### Question 5a
+#### Question 5a (2 pts)
 
 *GOrilla, which we use below, can take a single ranked list as input. Here, you should make two ranked lists of gene IDs, one with the gene IDs sorted by log FC from high to low, and the other from low to high. Use the paired analysis for this question. You will only want gene IDs written to the file (e.g. no row or column names, no quotes) - GOrilla will give error messages if it is not properly formatted.*
 
@@ -344,7 +344,7 @@ head(allDEStats)
 ```{r}
 ```
 
-#### Question 5b
+#### Question 5b (6 pts)
 *Now use GOrilla to measure gene set enrichment analysis for both sets of genes.*
 http://cbl-gorilla.cs.technion.ac.il/
 
