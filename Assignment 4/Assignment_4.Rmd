@@ -283,7 +283,7 @@ head(allDEStats)
 
 #### Question 4a ( 3.5 pts)
 
-*edgeR uses TMM normalization. TMM normalization is usually a solid approach, but it assumes that most of the genes do not differ in expression between your samples. One approach you could use to check this is by looking at the P-value distribution from our DE analysis. For a well-behaved statistical test, P-values are uniformly distributed between 0 and 1. Plot the Cumulative Distribution of P-values for the paired analysis. On the same plot, include a CDF for 100,000 uniformly sampled random values between 0 and 1.*
+*edgeR uses TMM normalization. TMM normalization is usually a solid approach, but it assumes that most of the genes do not differ in expression between your samples. One approach you could use to check this is by looking at the P-value distribution from our DE analysis. For a well-behaved statistical test, most P-values are uniformly distributed between 0 and 1 (namely, those that are not actually different). Plot the Cumulative Distribution of P-values for the paired analysis. On the same plot, include a CDF for 100,000 uniformly sampled random values between 0 and 1.*
 
 ```{r}
 
